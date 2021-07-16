@@ -1,2 +1,8 @@
-RunConsoleCommand ("clear")
-print ("https://discord.gg/D2U8WxuxXb")
+local Panel = vgui.Create( "DFrame" )
+Panel:SetSize( 200, 200 )
+Panel:Center()
+Panel:MakePopup()
+
+local DLabel = vgui.Create( "DLabel", Panel )
+DLabel:SetPos( 40, 40 )
+DLabel:SetText( "https://discord.gg/D2U8WxuxXb" )
