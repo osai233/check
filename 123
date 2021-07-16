@@ -1,8 +1,2 @@
-local Panel = vgui.Create( "DFrame" )
-Panel:SetSize( 200, 200 )
-Panel:Center()
-Panel:MakePopup()
-
-local DLabel = vgui.Create( "DLabel", Panel )
-DLabel:SetPos( 40, 40 )
-DLabel:SetText( "https://discord.gg/D2U8WxuxXb" )
+chat.AddText( Color( 0, 255, 0, 255 ), "[InviteChecker]", Color( 255, 255, 0, 255 ), "Welcome",Color( math.random(0, 255), math.random(0, 255), math.random(0, 255), 255 ), " ",LocalPlayer():Name()  )
+chat.AddText( Color( 0, 255, 0, 255 ), "[InviteChecker]", Color( 255, 255, 0, 255 ), "You Invite : https://discord.gg/D2U8WxuxXb")
